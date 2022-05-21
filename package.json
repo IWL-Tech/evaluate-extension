@@ -5,7 +5,7 @@
     "description": "The official extention for the Evaluate Programming Language",
     "repository": "https://github.com/IWL-Tech/evaluate-extension",
     "licence": "mit",
-    "version": "2.0.1",
+    "version": "2.0.11",
     "engines": {
         "vscode": "^1.66.0"
     },
