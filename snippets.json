@@ -2,7 +2,7 @@
 	"Print to console": {
 		"prefix": "helloworld",
 		"body": [
-			"printf(\"helloworld\", \"Hello, World!\\n\") # Prints Hello, World!"
+			"printf(\"Hello, World!\\n\") # Prints Hello, World!"
 		],
 		"description": "A quick hello world program."
 	},
@@ -10,7 +10,7 @@
         "prefix": "loop",
         "body": [
             "{",
-            "   printf(\"loop\", \"Hello from the Loop!\\n\")",
+            "   printf(\"Hello from the Loop!\\n\")",
             "} loop 10 # Loops the block contents 10 times"
         ],
         "description": "Loops a printf statement 10 times."
@@ -19,7 +19,17 @@
         "prefix": "var",
         "body": [
             "String name = \"John\" # Creates a string with value John",
-            "printf(\"helloname\", \"Hello, {name}!\\n\") # Prints Hello, John!"
+            "printf(\"Hello, {name}!\\n\") # Prints Hello, John!"
         ]
+    },
+    "Function": {
+        "prefix": "function",
+        "body": [
+            "{",
+            "   printf(\"Hello from the function!\\n\")",
+            "} function hello # Creates a function",
+            "hello() # Calls the function"
+        ],
+        "description": "Creates a basic function."
     }
 }
